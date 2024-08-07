@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Jobilin</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+<body>
+    <script src="scripts.js"></script>
+
+  <div id="header" class="header">
+      <a href="index.html"><img src="images/logo.png"></a>
+      <h1> Welcome to Jobilin</h1>
+    </div>
+
+
+  <div id="navbar">
+    <a href="#events">Events</a>
+    <a href="#cvTips">CV Tips & Templates</a>
+    <a href="#interviewPrac">Interview Practice</a>
+    <a href="#codePrac">Coding Practice</a>
+    <a href="#workExp">Get Work Exprience</a>
+    <a href="#findJob">Find Jobs</a>
+    <span onclick="openNav()">&#9776; </span>
+  </div>
+
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="index.html">Home</a>
+  <a href="about.html">About Us</a>
+  <a href="#services">Resource</a>
+  <a href="contact.html">Contact</a>
+</div>
+
+
+<div id="slideshow" class="slideshow">
+  
+  <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="images/webinar.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="images/interview.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="images/handshake.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="images/coding.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="images/cv.jpg" class="d-block w-100" alt="...">
+      </div>
+    </div>
+  </div>
+  
+  </div>
+
+
+<div id="main">
+
+<div id="services" class="services">
+
+  <h1>Job Atlas</h1>
+  <div class="intro">
+    <p>Welcome to our comprehensive job resource website, designed to empower job seekers at every stage of their career journey. Whether you're searching for your next role, honing your skills, or preparing for interviews, we have meticulously curated a library of resources tailored to meet your needs. From essential site links that guide you to job search portals and networking opportunities to in-depth coding tutorials that enhance your technical capabilities, our platform acts as your one-stop-shop for career development.</p>
+  <p>Our user-friendly interface ensures that you can easily navigate through various sections, making it effortless to find the information that matters most to you. Interested in interview practice? Our extensive collection of mock interview questions, tips from industry experts, and video tutorials will arm you with the knowledge and confidence you need to ace your next interview. Additionally, we keep you updated on upcoming job fairs across the UK, providing you with opportunities to connect with potential employers and expand your professional network.</p>
+  <p>Explore our resources today and take the first step towards achieving your career goals. Whether you are a recent graduate entering the job market or an experienced professional seeking new challenges, our website is committed to supporting you with the tools and information necessary for success. With our dedicated library of job resources, you can find exactly what you need to thrive in your career.</p>
+
+
+
+
+  </div>
+</div>
+
+<div id="findJob" class="findJob">
+
+<h1>Find Jobs</h1>
+
+<div class="cardContainer">
+
+  <div class="card" style="width: 18rem; background-color: #293b65; color: white;">
+    <img src="images/job1.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Gradcracker</h5>
+      <p class="card-text">GradCracker is a prominent platform designed to connect students with leading companies and organizations, particularly in the fields of engineering and technology.</p>
+      <a href="https://www.gradcracker.com" class="btn btn-light">View</a>
+    </div>
+  </div>
+
+  <div class="card" style="width: 18rem; background-color: #293b65; color: white;">
+    <img src="images/job2.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Bright Network</h5>
+      <p class="card-text">Bright Network is a leading career development platform aimed at connecting students and recent graduates with top employers across various industries.</p>
+      <a href="https://www.brightnetwork.co.uk" class="btn btn-light">View</a>
+    </div>
+  </div>
+
+  <div class="card" style="width: 18rem; background-color: #293b65; color: white;">
+    <img src="images/job3.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Graduate-Jobs</h5>
+      <p class="card-text">Website is designed to give you relevant jobs, the newest graduate schemes, and customised employment.</p>
+      <a href="https://www.graduate-jobs.com" class="btn btn-light">View</a>
+    </div>
+  </div>
+
+  <div class="card" style="width: 18rem; background-color: #293b65; color: white;">
+    <img src="images/job4.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Linkedin Jobs</h5>
+      <p class="card-text">LinkedIn Jobs has emerged as a vital platform for job seekers and employers alike in today's digital age, serving as a bridge between talent and opportunity.</p>
+      <a href="https://www.linkedin.com/jobs/search?trk=guest_homepage-basic_guest_nav_menu_jobs&position=1&pageNum=0" class="btn btn-light">View</a>
+    </div>
+  </div>
+
+</div>
+</div>
+
+
+<div id="workExp" class="workExp">
+  <h1>Get Work Exprience</h1>
+
+  <div class="cardContainer">
+
+  <div class="card" style="width: 18rem; background-color: #293b65; color: white;">
+    <img src="images/work1.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Digital For Humanity</h5>
+      <p class="card-text">Offers intership roles, a unique opportunity to bridge the gap between academic knowledge and real-world application.</p>
+      <a href="https://www.digitalforhumanity.org" class="btn btn-light">View</a>
+    </div>
+  </div>
+
+  <div class="card" style="width: 18rem; background-color: #293b65; color: white;">
+    <img src="images/work2.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Student Job</h5>
+      <p class="card-text">Focuses on connecting employers to the best candidates who are actively searching for jobs; including part-time and weekend work, internships, </p>
+      <a href="https://www.studentjob.co.uk" class="btn btn-light">View</a>
+    </div>
+  </div>
+
+  <div class="card" style="width: 18rem; background-color: #293b65; color: white;">
+    <img src="images/work3.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Prospects</h5>
+      <p class="card-text">Prospects is a comprehensive online resource dedicated to helping students and recent graduates navigate the often complex landscape of career planning and job searching.</p>
+      <a href="https://www.prospects.ac.uk/jobs-and-work-experience/work-experience-and-internships" class="btn btn-light">View</a>
+    </div>
+  </div>
+
+  <div class="card" style="width: 18rem; background-color: #293b65; color: white;">
+    <img src="images/work4.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Student Ladder</h5>
+      <p class="card-text">Provides a wealth of resources tailored specifically for young individuals navigating the often overwhelming transition from education to employment.</p>
+      <a href="https://studentladder.co.uk" class="btn btn-light">View</a>
+    </div>
+  </div>
+
+</div>
+
+</div>
+
+
+<div id="codePrac" class="codePrac">
+  <h1>Code Practice</h1>
+
+  <div class="cardContainer">
+
+    <div class="card" style="width: 18rem; background-color: #293b65; color: white;">
+      <img src="images/code1.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Leetcode</h5>
+        <p class="card-text">LeetCode is a leading online platform that provides a vast array of coding challenges and competitive programming exercises, catering primarily to software engineers and computer science enthusiasts.</p>
+        <a href="https://leetcode.com" class="btn btn-light">View</a>
+      </div>
+    </div>
+  
+    <div class="card" style="width: 18rem; background-color: #293b65; color: white;">
+      <img src="images/code2.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Edabit</h5>
+        <p class="card-text">Edabit is an innovative online platform designed to enhance coding skills through interactive learning and gamification.</p>
+        <a href="https://edabit.com/" class="btn btn-light">View</a>
+      </div>
+    </div>
+  
+    <div class="card" style="width: 18rem; background-color: #293b65; color: white;">
+      <img src="images/code3.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Codechef</h5>
+        <p class="card-text">CodeChef is a prominent online competitive programming platform that empowers programmers to enhance their coding skills through a variety of challenges and contests.</p>
+        <a href="https://www.codechef.com" class="btn btn-light">View</a>
+      </div>
+    </div>
+  
+    <div class="card" style="width: 18rem; background-color: #293b65; color: white;">
+      <img src="images/code4.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">HackerRank</h5>
+        <p class="card-text">HackerRank is a dynamic online platform that caters to both aspiring programmers and seasoned developers by offering a variety of coding challenges and competitions.</p>
+        <a href="https://www.hackerrank.com" class="btn btn-light">View</a>
+      </div>
+    </div>
+  
+  </div>
+  
+</div>
+
+
+<div id="interviewPrac" class="interviewPrac">
+  <h1>Interview Practice</h1>
+  
+  <div class="cardContainer">
+
+    <div class="card" style="width: 18rem; background-color: #293b65; color: white;">
+      <img src="images/interview1.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Google: Interview Warmup</h5>
+        <p class="card-text">The Google Interview Warmup tool is a valuable resource designed to help job seekers prepare for interviews by simulating common interview questions in various fields, including IT support, data analytics, project management, and more.</p>
+        <a href="https://grow.google/certificates/interview-warmup" class="btn btn-light">View</a>
+      </div>
+    </div>
+  
+    <div class="card" style="width: 18rem; background-color: #293b65; color: white;">
+      <img src="images/interview2.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Interview Practice by Willo</h5>
+        <p class="card-text">Secure your next job by virtually practicing your interviewing techniques at home.</p>
+        <a href="https://practiceinterview.online/" class="btn btn-light">View</a>
+      </div>
+    </div>
+  
+    <div class="card" style="width: 18rem; background-color: #293b65; color: white;">
+      <img src="images/interview3.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">My Interview Practice</h5>
+        <p class="card-text">Platform that revolutionizes how individuals prepare for job interviews. With an extensive library of tailored interview questions across various industries, users can simulate real interview scenarios, helping them build confidence and refine their responses.</p>
+        <a href="https://myinterviewpractice.com" class="btn btn-light">View</a>
+      </div>
+    </div>
+  
+    <div class="card" style="width: 18rem; background-color: #293b65; color: white;">
+      <img src="images/interview4.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">InterviewBit</h5>
+        <p class="card-text">InterviewBit is a robust platform designed to help aspiring software engineers and developers prepare for technical interviews.</p>
+        <a href="https://www.interviewbit.com" class="btn btn-light">View</a>
+      </div>
+    </div>
+  
+  </div>
+</div>
+
+
+<div  id="cvTips" class="cvTips">
+  <h1>CV Tips & Templates</h1>
+<div class="cardContainer">
+
+    <div class="card" style="width: 18rem; background-color: #293b65; color: white;">
+      <img src="images/cv1.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Robert Walters</h5>
+        <p class="card-text">Best practices for organising your resume. Use the format and advice provided here to make your CV stand out.</p>
+        <a href="https://www.robertwalters.com.au/insights/career-advice/blog/top-tips-to-structure-your-cv.html" class="btn btn-light">View</a>
+      </div>
+    </div>
+  
+    <div class="card" style="width: 18rem; background-color: #293b65; color: white;">
+      <img src="images/cv2.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Enhancv</h5>
+        <p class="card-text">Enhancv provides insightful resources and tips for job seekers, including guidance on writing cover letters and preparing for interviews.</p>
+        <a href="https://enhancv.com/uk/blog/cv-tips/" class="btn btn-light">View</a>
+      </div>
+    </div>
+  
+    <div class="card" style="width: 18rem; background-color: #293b65; color: white;">
+      <img src="images/cv3.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Jobseeker</h5>
+        <p class="card-text">An invaluable resource for individuals actively searching for employment opportunities.</p>
+        <a href="https://www.jobseeker.com/en" class="btn btn-light">View</a>
+      </div>
+    </div>
+  
+    <div class="card" style="width: 18rem; background-color: #293b65; color: white;">
+      <img src="images/cv4.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">My Perfect CV</h5>
+        <p class="card-text">Whether you're a recent graduate looking to enter the workforce, an experienced professional seeking a new challenge, or someone returning to the job market after a break, there's a template suited to your needs.</p>
+        <a href="https://www.myperfectcv.co.uk/cv/templates" class="btn btn-light">View</a>
+      </div>
+    </div>
+  
+  </div>
+
+</div>
+
+
+<div id="events" class="events">
+  <h1>Events</h1>
+
+  <div class="cardContainer">
+
+    <div class="card" style="width: 18rem; background-color: #293b65; color: white;">
+      <img src="images/event1.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Event Brite</h5>
+        <p class="card-text">Eventbrite is a versatile platform that has transformed the way individuals and organizations plan, promote, and manage events.</p>
+        <a href="https://www.eventbrite.co.uk/d/united-kingdom--london/job-fair/" class="btn btn-light">View</a>
+      </div>
+    </div>
+  
+    <div class="card" style="width: 18rem; background-color: #293b65; color: white;">
+      <img src="images/event2.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">The Job Fairs</h5>
+        <p class="card-text">The Job Fairs UK initiative is an invaluable resource for job seekers looking to navigate the challenging landscape of employment.</p>
+        <a href="https://www.thejobfairs.co.uk/welcome-jobseeker" class="btn btn-light">View</a>
+      </div>
+    </div>
+  
+    <div class="card" style="width: 18rem; background-color: #293b65; color: white;">
+      <img src="images/event3.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">London Job Shows</h5>
+        <p class="card-text">The London Job Show is a dynamic and vibrant event that connects job seekers with potential employers across various industries.</p>
+        <a href="https://www.londonjobshow.co.uk/" class="btn btn-light">View</a>
+      </div>
+    </div>
+  
+    <div class="card" style="width: 18rem; background-color: #293b65; color: white;">
+      <img src="images/event4.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">UK Careers Fair</h5>
+        <p class="card-text">The UK Careers Fair is an influential platform dedicated to connecting job seekers with potential employers across various industries throughout the United Kingdom.</p>
+        <a href="https://www.ukcareersfair.com/" class="btn btn-light">View</a>
+      </div>
+    </div>
+  
+  </div>
+</div>
+
+</div>
+
+<footer id ="pageFooter">
+  <a href="https://uk.linkedin.com/"><img src="images/linkedin.png"></a>
+  <a href="https://github.com/"><img src="images/github.png"></a>
+  <p>Rights Reserved by Fabiha K © 2024 </p>
+  <p>"This website has been created for education purposes"</p>
+</footer>
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+<script>
+window.onscroll = function() {myFunction()};
+
+var navbar = document.getElementById("navbar");
+var sticky = navbar.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky")
+  } else {
+    navbar.classList.remove("sticky");
+  }
+}
+</script>
+
+
+
+</body>
+</html>
